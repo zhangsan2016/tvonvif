@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\ldgd\\Desktop\\xx\\tvonvif\\ViewPagerIndicator-master-sample\\build\\intermediates\\res\\merged\\debug\\drawable\\perm_group_device_alarms.xml",
+        "source": "C:\\Users\\ldgd\\Desktop\\xx\\tvonvif\\ViewPagerIndicator-master-sample\\src\\main\\res\\drawable\\perm_group_device_alarms.xml"
+    },
+    {
+        "merged": "C:\\Users\\ldgd\\Desktop\\xx\\tvonvif\\ViewPagerIndicator-master-sample\\build\\intermediates\\res\\merged\\debug\\drawable\\perm_group_location.xml",
+        "source": "C:\\Users\\ldgd\\Desktop\\xx\\tvonvif\\ViewPagerIndicator-master-sample\\src\\main\\res\\drawable\\perm_group_location.xml"
+    },
+    {
+        "merged": "C:\\Users\\ldgd\\Desktop\\xx\\tvonvif\\ViewPagerIndicator-master-sample\\build\\intermediates\\res\\merged\\debug\\drawable\\perm_group_camera.xml",
+        "source": "C:\\Users\\ldgd\\Desktop\\xx\\tvonvif\\ViewPagerIndicator-master-sample\\src\\main\\res\\drawable\\perm_group_camera.xml"
+    },
+    {
+        "merged": "C:\\Users\\ldgd\\Desktop\\xx\\tvonvif\\ViewPagerIndicator-master-sample\\build\\intermediates\\res\\merged\\debug\\drawable\\custom_tab_indicator.xml",
+        "source": "C:\\Users\\ldgd\\Desktop\\xx\\tvonvif\\ViewPagerIndicator-master-sample\\src\\main\\res\\drawable\\custom_tab_indicator.xml"
+    },
+    {
+        "merged": "C:\\Users\\ldgd\\Desktop\\xx\\tvonvif\\ViewPagerIndicator-master-sample\\build\\intermediates\\res\\merged\\debug\\drawable\\perm_group_calendar.xml",
+        "source": "C:\\Users\\ldgd\\Desktop\\xx\\tvonvif\\ViewPagerIndicator-master-sample\\src\\main\\res\\drawable\\perm_group_calendar.xml"
+    },
+    {
+        "merged": "C:\\Users\\ldgd\\Desktop\\xx\\tvonvif\\ViewPagerIndicator-master-sample\\build\\intermediates\\res\\merged\\debug\\drawable\\vpi__tab_indicator.xml",
+        "source": "C:\\Users\\ldgd\\Desktop\\xx\\tvonvif\\ViewPagerIndicator_library\\build\\intermediates\\bundles\\default\\res\\drawable\\vpi__tab_indicator.xml"
+    }
+]

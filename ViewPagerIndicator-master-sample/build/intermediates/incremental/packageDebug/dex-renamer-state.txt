@@ -1,0 +1,4 @@
+#Wed Feb 28 08:52:27 CST 2018
+base.0=C\:\\Users\\ldgd\\Desktop\\xx\\tvonvif\\ViewPagerIndicator-master-sample\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+renamed.0=classes.dex
+file.0=C\:\\Users\\ldgd\\Desktop\\xx\\tvonvif\\ViewPagerIndicator-master-sample\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BlackOnvif-master/BlackOnvif-master.iml" filepath="$PROJECT_DIR$/BlackOnvif-master/BlackOnvif-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ViewPagerIndicator-master-sample/ViewPagerIndicator-master-sample.iml" filepath="$PROJECT_DIR$/ViewPagerIndicator-master-sample/ViewPagerIndicator-master-sample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ViewPagerIndicator_library/ViewPagerIndicator_library.iml" filepath="$PROJECT_DIR$/ViewPagerIndicator_library/ViewPagerIndicator_library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tvonvif.iml" filepath="$PROJECT_DIR$/tvonvif.iml" />
+      <module fileurl="file://$PROJECT_DIR$/viewpager/viewpager.iml" filepath="$PROJECT_DIR$/viewpager/viewpager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/viewpager2/viewpager2.iml" filepath="$PROJECT_DIR$/viewpager2/viewpager2.iml" />
+    </modules>
+  </component>
+</project>

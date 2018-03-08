@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\ldgd\Desktop\xx\tvonvif\app\libs\javacpp.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="08f8b1e3fdcc93a1e9076d6279864d6a46982a85">
+        <dex dex="C:\Users\ldgd\Desktop\xx\tvonvif\app\build\intermediates\pre-dexed\debug\javacpp_6049046edf95acde90e3729fba277891f4836083.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ldgd\Desktop\xx\tvonvif\ViewPagerIndicator_library\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c1aa08d66f4c3bb4f44c9972702966c65d20823d">
+        <dex dex="C:\Users\ldgd\Desktop\xx\tvonvif\ViewPagerIndicator-master-sample\build\intermediates\pre-dexed\debug\classes_53b86cf55d092f668261a721ed1da3dc255871d0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ldgd\Desktop\xx\tvonvif\app\libs\maven-plugin-api-2.0.9.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="8b8cae9daa688fdb57995c6835a3e24475d554c0">
+        <dex dex="C:\Users\ldgd\Desktop\xx\tvonvif\app\build\intermediates\pre-dexed\debug\maven-plugin-api-2.0.9_7ef3ce20a3f5837f6483be23a8df686b9fd1312d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ldgd\Desktop\xx\tvonvif\ViewPagerIndicator_library\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="c1aa08d66f4c3bb4f44c9972702966c65d20823d">
+        <dex dex="C:\Users\ldgd\Desktop\xx\tvonvif\viewpager2\build\intermediates\pre-dexed\debug\classes_53b86cf55d092f668261a721ed1da3dc255871d0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ldgd\Desktop\xx\tvonvif\app\libs\javacv.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="1824ed7a180ee32aa57f5632a489c10aad8f1804">
+        <dex dex="C:\Users\ldgd\Desktop\xx\tvonvif\app\build\intermediates\pre-dexed\debug\javacv_ed361ed26f92812ad767347b4993572cd6a9f320.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,3 @@
+include ':app', ':viewpager', ':BlackOnvif-master', ':viewpager2'
+include ':ViewPagerIndicator_library'
+include ':ViewPagerIndicator-master-sample'
