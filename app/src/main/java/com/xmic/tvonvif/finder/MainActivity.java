@@ -135,6 +135,7 @@ public class MainActivity extends Activity {
 				@Override
 				public void onServiceDisconnected(ComponentName name) {
 					mService = null;
+					mAdapter = null;
 				}
 
 				@Override
@@ -152,7 +153,9 @@ public class MainActivity extends Activity {
 									mHandler.post(new Runnable() {
 										@Override
 										public void run() {
-											mAdapter.notifyDataSetChanged();
+
+												mAdapter.notifyDataSetChanged();
+
 										}
 									});
 								}
@@ -172,6 +175,10 @@ public class MainActivity extends Activity {
 					int position, long id) {
 				mNowIndex = position;
 				mLoginDialog.show();
+
+
+
+
 			}
 
 		});
