@@ -43,6 +43,8 @@ import com.xmic.tvonvif.finder.CameraService.CameraBinder;
 import com.xmic.tvonviffinder.R;
 
 import java.lang.ref.WeakReference;
+import java.util.ArrayList;
+import java.util.List;
 
 import static com.googlecode.javacv.cpp.opencv_core.cvCreateImage;
 import static com.googlecode.javacv.cpp.opencv_imgproc.CV_BGR2RGBA;
@@ -154,7 +156,7 @@ public class MainActivity extends Activity {
 										@Override
 										public void run() {
 
-												mAdapter.notifyDataSetChanged();
+												mAdapter.setCameraDevices(mService.getFinder().getCameraList());
 
 										}
 									});
@@ -175,9 +177,6 @@ public class MainActivity extends Activity {
 					int position, long id) {
 				mNowIndex = position;
 				mLoginDialog.show();
-
-
-
 
 			}
 
@@ -315,21 +314,31 @@ public class MainActivity extends Activity {
 
 		private Context mContext;
 		private CameraFinder mFinder;
+		private List<CameraDevice> cameraDevices;
 
 		public MyAdapter(Context context, CameraFinder finder) {
 			mContext = context;
 			mFinder = finder;
+			cameraDevices = new ArrayList<CameraDevice>();
+		}
+
+		public void setCameraDevices(List<CameraDevice> list) {
+			if (list != null) {
+				cameraDevices.clear();
+				cameraDevices.addAll(list);
+				notifyDataSetChanged();
+			}
 		}
 
 		@Override
 		public int getCount() {
-			int result = mFinder.getCameraList().size();
+			int result = cameraDevices.size();
 			return result;
 		}
 
 		@Override
 		public Object getItem(int position) {
-			return mFinder.getCameraList().get(position);
+			return cameraDevices.get(position);
 		}
 
 		@Override
@@ -343,7 +352,7 @@ public class MainActivity extends Activity {
 				convertView = View.inflate(mContext,
 						android.R.layout.simple_expandable_list_item_2, null);
 			}
-			CameraDevice device = mFinder.getCameraList().get(position);
+			CameraDevice device =cameraDevices.get(position);
 			TextView title = (TextView) convertView
 					.findViewById(android.R.id.text1);
 			title.setTextColor(Color.BLACK);
